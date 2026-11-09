@@ -1,12 +1,12 @@
 # Machine Learning
 
-My hands-on path through machine learning, from simple bandit algorithms to deep Q-networks that learn to drive, play Snake and save energy.
+My hands-on machine learning projects, from classic algorithms to deep learning and reinforcement learning, built while learning each topic step by step.
 
-Every folder is a self-contained project with its own README that explains the idea, how the code works, how to run it and what I learned.
+Every project folder has its own README that explains the idea, how the code works, how to run it and what I learned.
 
 ## Projects
 
-### Reinforcement learning
+### Reinforcement Learning
 
 | Project | Technique | Framework |
 |---|---|---|
@@ -16,31 +16,24 @@ Every folder is a self-contained project with its own README that explains the i
 | [Snake DQN](reinforcement-learning/snake-dqn) | CNN-based Deep Q-Network on game frames | Keras, Pygame |
 | [Energy Optimization DQN](reinforcement-learning/energy-optimization-dqn) | Deep Q-Network for server cooling control | Keras |
 
-### Deep learning
+### Deep Learning
 
 | Project | Technique | Framework |
 |---|---|---|
 | [House Price Regression](deep-learning/house-price-regression) | Feedforward neural network for regression | Keras, scikit-learn |
 | [ResNet Image Classification](deep-learning/resnet-image-classification) | Inference with a pretrained ResNet-18 | PyTorch, torchvision |
+| [Keras Fundamentals](deep-learning/keras-fundamentals) | First networks, training from scratch, Sequential and Functional APIs, callbacks | TensorFlow, Keras |
+| [Classification and Regression](deep-learning/classification-and-regression) | Binary, multiclass and regression on IMDB, Reuters and Boston Housing | Keras |
+| [Computer Vision](deep-learning/computer-vision) | CNNs, data augmentation, transfer learning with VGG16, image segmentation | Keras |
+| [Time Series Forecasting](deep-learning/timeseries-forecasting) | LSTM, stacked GRU and bidirectional RNNs for temperature prediction | Keras |
+| [NLP and Transformers](deep-learning/nlp-transformers) | Bag of words, LSTMs, Transformer encoder, encoder-decoder translation | Keras, TensorFlow |
+| [Generative Deep Learning](deep-learning/generative) | DeepDream with InceptionV3 | Keras |
 
-## Repository structure
-
-```
-machine-learning/
-├── reinforcement-learning/
-│   ├── thompson-sampling/
-│   ├── q-learning/
-│   ├── self-driving-car/
-│   ├── snake-dqn/
-│   └── energy-optimization-dqn/
-└── deep-learning/
-    ├── house-price-regression/
-    └── resnet-image-classification/
-```
+*More projects are being added.*
 
 ## Running a project
 
-Each project has its own dependencies, listed in its README. The scripts load and save files with relative paths, so run them from inside the project folder:
+Each project lists its own dependencies in its README. The scripts load and save files with relative paths, so run them from inside the project folder:
 
 ```bash
 git clone https://github.com/zzzhtetpai-neuroai/machine-learning.git
@@ -51,11 +44,11 @@ pip install numpy
 python q_learning.py
 ```
 
-## Learning resources
+## Credits
 
-Most projects here were built while working through **AI Crash Course** by Hadelin de Ponteves (Packt, 2019). I typed and ran the code myself, studied how each part works and changed it along the way. Each README notes where a project comes from and what I changed.
+Many projects started from books I studied, and each project's README names its source and what I changed.
 
 ## Author
 
-Htet Pai, IT Business student at iU (Tokyo), on a path from cloud and ML toward brain-computer interfaces.
+Htet Pai, IT Business student at iU (Tokyo)
 GitHub: [@zzzhtetpai-neuroai](https://github.com/zzzhtetpai-neuroai)

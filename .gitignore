@@ -15,3 +15,21 @@ cuda_env/
 
 # Local scratch, not for the repo
 _to_delete/
+
+# Archives
+*.gz
+*.tar
+*.rar
+
+# Deep learning: datasets, trained models and logs stay local
+deep-learning/**/*.keras
+deep-learning/computer-vision/data/
+deep-learning/computer-vision/images/
+deep-learning/computer-vision/annotations/
+deep-learning/timeseries-forecasting/RNN/
+deep-learning/nlp-transformers/aclImdb/
+deep-learning/nlp-transformers/spa_eng/
+deep-learning/keras-fundamentals/logs/
+
+# Secrets
+kaggle.json

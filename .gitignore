@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+cuda_env/
+
+# Editor
+.vscode/
+
+# Datasets (scripts download them or the README explains where to get them)
+*.csv
+*.zip
+*.tar.gz
+
+# Local scratch, not for the repo
+_to_delete/

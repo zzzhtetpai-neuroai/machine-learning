@@ -12,9 +12,9 @@ Every project folder has its own README that explains the idea, how the code wor
 |---|---|---|
 | [Thompson Sampling](reinforcement-learning/thompson-sampling) | Multi-armed bandit, compared with random selection | NumPy, Matplotlib |
 | [Q-Learning Warehouse Routing](reinforcement-learning/q-learning) | Tabular Q-learning for shortest routes | NumPy |
-| [Self-Driving Car](reinforcement-learning/self-driving-car) | Deep Q-Network with experience replay | PyTorch, Kivy |
-| [Snake DQN](reinforcement-learning/snake-dqn) | CNN-based Deep Q-Network on game frames | Keras, Pygame |
-| [Energy Optimization DQN](reinforcement-learning/energy-optimization-dqn) | Deep Q-Network for server cooling control | Keras |
+| [Self-Driving Car](https://github.com/zzzhtetpai-neuroai/self-driving-car-reinforcement-learning) ↗ | Deep Q-Network with experience replay | PyTorch, Kivy |
+| [Snake DQN](https://github.com/zzzhtetpai-neuroai/snake-game-cnn-deep-q-learning) ↗ | CNN-based Deep Q-Network on game frames | Keras, Pygame |
+| [Energy Optimization DQN](https://github.com/zzzhtetpai-neuroai/energy-optimization-deep-q-learning) ↗ | Deep Q-Network for server cooling control | Keras |
 
 ### Deep Learning
 
@@ -28,8 +28,10 @@ Every project folder has its own README that explains the idea, how the code wor
 | [Time Series Forecasting](deep-learning/timeseries-forecasting) | LSTM, stacked GRU and bidirectional RNNs for temperature prediction | Keras |
 | [NLP and Transformers](deep-learning/nlp-transformers) | Bag of words, LSTMs, Transformer encoder, encoder-decoder translation | Keras, TensorFlow |
 | [Generative Deep Learning](deep-learning/generative) | DeepDream with InceptionV3 | Keras |
-| [Neural Network from Scratch](deep-learning/neural-network-from-scratch) | MNIST digit classifier with hand-written backpropagation | NumPy |
+| [Neural Network from Scratch](https://github.com/zzzhtetpai-neuroai/neural-network-from-scratch) ↗ | MNIST digit classifier with hand-written backpropagation | NumPy |
 | [PyTorch Fundamentals](deep-learning/pytorch-fundamentals) | Hand-written training loops, checkpoints, TensorBoard, a reusable trainer class | PyTorch |
+
+↗ = complete project with its own repository.
 
 *More projects are being added.*
 

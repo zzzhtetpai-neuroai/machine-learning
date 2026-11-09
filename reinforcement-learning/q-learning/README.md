@@ -43,7 +43,3 @@ python q_learning.py
 - How the Bellman equation and temporal difference updates turn sparse rewards into a full value table.
 - What the discount factor γ and learning rate α actually control.
 - Why tabular Q-learning only works for small state spaces. That limitation is what leads to Deep Q-Networks (see the other projects in this folder).
-
-## Credits
-
-Based on the warehouse robot example in *AI Crash Course* by Hadelin de Ponteves (Packt, 2019).

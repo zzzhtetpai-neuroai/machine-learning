@@ -33,3 +33,7 @@ deep-learning/keras-fundamentals/logs/
 
 # Secrets
 kaggle.json
+deep-learning/neural-network-from-scratch/dataset/
+deep-learning/**/*.pth
+deep-learning/**/logs/
+deep-learning/**/runs/

@@ -27,7 +27,3 @@ python deep_dream.py   # downloads a sample photo and saves dream.png
 - Gradient ascent on the input image instead of gradient descent on the weights.
 - What different depths of a CNN respond to: shallow layers see edges and textures, deeper layers see shapes and objects.
 - Multi-scale processing to keep the result detailed.
-
-## Credits
-
-Based on *Deep Learning with Python* by François Chollet (Manning).

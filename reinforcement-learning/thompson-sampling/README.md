@@ -41,7 +41,3 @@ python thompson_sampling_plot.py
 - The exploration vs exploitation trade-off and why always picking the current best option can lock you into a bad choice.
 - How a Beta distribution models uncertainty about a success rate.
 - How to measure an algorithm against a baseline (random selection) instead of judging it alone.
-
-## Credits
-
-Based on the Thompson sampling chapter of *AI Crash Course* by Hadelin de Ponteves (Packt, 2019).

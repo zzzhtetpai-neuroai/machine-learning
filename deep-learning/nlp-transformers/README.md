@@ -57,7 +57,3 @@ python seq2seq_transformer.py
 - How self-attention lets every word look at every other word, and why that replaced RNNs.
 - Building custom Keras layers (`get_config` for saving and loading, masking for padding).
 - How a decoder generates text one token at a time with a causal mask.
-
-## Credits
-
-Based on *Deep Learning with Python* by François Chollet (Manning).

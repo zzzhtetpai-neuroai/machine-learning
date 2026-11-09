@@ -28,6 +28,8 @@ Every project folder has its own README that explains the idea, how the code wor
 | [Time Series Forecasting](deep-learning/timeseries-forecasting) | LSTM, stacked GRU and bidirectional RNNs for temperature prediction | Keras |
 | [NLP and Transformers](deep-learning/nlp-transformers) | Bag of words, LSTMs, Transformer encoder, encoder-decoder translation | Keras, TensorFlow |
 | [Generative Deep Learning](deep-learning/generative) | DeepDream with InceptionV3 | Keras |
+| [Neural Network from Scratch](deep-learning/neural-network-from-scratch) | MNIST digit classifier with hand-written backpropagation | NumPy |
+| [PyTorch Fundamentals](deep-learning/pytorch-fundamentals) | Hand-written training loops, checkpoints, TensorBoard, a reusable trainer class | PyTorch |
 
 *More projects are being added.*
 
@@ -44,9 +46,14 @@ pip install numpy
 python q_learning.py
 ```
 
-## Credits
+## Learning resources
 
-Many projects started from books I studied, and each project's README names its source and what I changed.
+These projects were built while studying the following books. I typed and ran the code, reviewed it, fixed bugs and reorganized it.
+
+- *AI Crash Course* by Hadelin de Ponteves (Packt)
+- *Deep Learning with Python* by François Chollet (Manning)
+- *Make Your Own Neural Network* by Tariq Rashid
+- *Deep Learning with PyTorch Step-by-Step* by Daniel Voigt Godoy
 
 ## Author
 

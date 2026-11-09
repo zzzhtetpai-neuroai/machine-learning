@@ -39,7 +39,3 @@ python temperature_bidirectional_lstm.py
 - Why time series must be split by time, not shuffled randomly.
 - LSTM vs GRU, recurrent dropout, stacking layers and bidirectional RNNs.
 - Why bidirectional RNNs help with text but not much with weather: for forecasting, recent data matters most, and reading backwards adds little.
-
-## Credits
-
-Based on *Deep Learning with Python* by François Chollet (Manning).

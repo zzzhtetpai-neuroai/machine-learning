@@ -33,7 +33,3 @@ python boston_housing_regression.py
 - Reading training and validation curves to spot overfitting and pick the number of epochs.
 - Why K-fold validation matters when the dataset is small.
 - Normalizing features without leaking test data.
-
-## Credits
-
-Based on *Deep Learning with Python* by François Chollet (Manning).

@@ -65,7 +65,3 @@ python snake_test.py    # watch the saved model play
 - Using a CNN as the Q-function so the agent can learn from a grid "image" instead of hand-picked features.
 - Frame stacking to give a single-frame model a sense of motion.
 - How slow ε decay makes early training curves look flat or noisy, and how to read a training curve honestly.
-
-## Credits
-
-Based on the Snake project in *AI Crash Course* by Hadelin de Ponteves (Packt, 2019).

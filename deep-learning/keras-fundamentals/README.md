@@ -38,7 +38,3 @@ tensorboard --logdir logs         # open the training dashboard
 - What a tensor, a layer, a loss and an optimizer actually are, by writing a training step by hand.
 - When to use Sequential and when to use the Functional API.
 - How callbacks make training safer (no overfitting past the best epoch) and easier to inspect.
-
-## Credits
-
-Based on *Deep Learning with Python* by François Chollet (Manning).

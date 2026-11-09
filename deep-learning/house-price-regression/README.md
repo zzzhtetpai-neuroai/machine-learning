@@ -40,7 +40,3 @@ python house_price_regression.py
 - The full supervised learning workflow: load, split, scale, train, evaluate.
 - Why scaling the target matters in regression, and how to inverse-transform predictions back to real values.
 - Reading a percentage error as a more intuitive metric than raw MSE.
-
-## Credits
-
-Based on the house price prediction example in *AI Crash Course* by Hadelin de Ponteves (Packt, 2019).

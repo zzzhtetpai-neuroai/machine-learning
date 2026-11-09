@@ -40,7 +40,3 @@ A GPU is strongly recommended for the cats vs dogs and segmentation scripts.
 - How data augmentation and dropout reduce overfitting on small datasets.
 - Transfer learning: reusing features learned on ImageNet instead of starting from zero.
 - The difference between classifying a whole image and segmenting every pixel.
-
-## Credits
-
-Based on *Deep Learning with Python* by François Chollet (Manning).

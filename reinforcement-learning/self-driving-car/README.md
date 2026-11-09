@@ -74,7 +74,3 @@ On Windows PowerShell without conda on the PATH, you can call the env's Python d
 - Why experience replay matters: learning from random past transitions breaks the correlation between consecutive frames.
 - How reward design shapes behavior. Small penalties for drifting away and big penalties for sand produce smooth driving.
 - Building an interactive simulation with Kivy.
-
-## Credits
-
-Based on the self-driving car project in *AI Crash Course* by Hadelin de Ponteves (Packt, 2019).

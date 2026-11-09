@@ -64,7 +64,3 @@ python energy_test.py
 - Defining the reward as an improvement over a baseline instead of an absolute value.
 - Using early stopping in reinforcement learning, not only in supervised learning.
 - Fixing random seeds (`PYTHONHASHSEED`, NumPy and `random`) for reproducible experiments.
-
-## Credits
-
-Based on the energy optimization project in *AI Crash Course* by Hadelin de Ponteves (Packt, 2019).
